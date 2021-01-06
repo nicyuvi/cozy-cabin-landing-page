@@ -174,6 +174,9 @@ html {
   border-radius: 25px;
   transition: 0.3s ease all;
 }
+.btn-light:hover {
+  background: var(--dark-blue);
+}
 /* buttons */
 
 /* anchor tags */
@@ -192,12 +195,17 @@ body {
   /* font weight: 300, 400, 700, 900 */
   font-family: 'Roboto', sans-serif;
 }
+.brand-logo {
+  font-family: 'Lobster', cursive;
+  color: var(--light-blue);
+  font-size: 2rem;
+}
 /** GENERAL **/
 
 /** HEADER **/
 header nav ul li a {
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--dark-blue);
 }
 /** HEADER **/
@@ -347,7 +355,7 @@ header nav ul li a {
 /* wave border */
 .custom-shape-divider-bottom-1609889842 {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -392,12 +400,16 @@ header nav ul li a {
     /* place nav on top of hero background */
     position: absolute;
     z-index: 1;
+    top: 0;
     left: 50%;
+    padding: 1em 0;
+    border-bottom: 0.25px solid #fff8f094;
     transform: translateX(-50%);
   }
 
   header nav ul li a {
     font-size: 1rem;
+    color: var(--white);
   }
 
   .brand-name-container,
@@ -417,11 +429,6 @@ header nav ul li a {
   #desktop-nav-right li:not(:last-child) a:hover {
     background: var(--lighter-blue);
   }
-
-  .brand-name-container {
-    width: 150px;
-  }
-
   /*** NAV BAR ***/
 
   /*** HERO ***/
@@ -458,6 +465,9 @@ header nav ul li a {
 }
 
 @media screen and (min-width: 1280px) {
+  header nav ul li a {
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (min-width: 1536px) {
