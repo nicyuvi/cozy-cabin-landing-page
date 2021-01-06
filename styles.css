@@ -1,0 +1,199 @@
+/*==========
+  CSS RESET
+=============*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*==========
+  CSS RESET
+=============*/
+/*==========
+  GENERAL
+=============*/
+/* flex center */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* object fit: cover  */
+.cover {
+  object-fit: cover;
+}
+/*==========
+  GENERAL
+=============*/
+/*==========
+  TYPOGRAPHY
+=============*/
+/*==========
+  TYPOGRAPHY
+=============*/
+
+/*==========
+  LAYOUT
+=============*/
+#hero {
+  position: relative;
+  background-color: lightblue;
+  min-height: 500px;
+}
+
+.custom-shape-divider-bottom-1609889842 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1609889842 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1609889842 .shape-fill {
+  fill: #ffffff;
+}
+/*==========
+  LAYOUT
+=============*/
+
+/*==========
+  COMPONENTS
+=============*/
+/*==========
+  COMPONENTS
+=============*/
+
+/*============
+  MEDIA QUERY
+==============*/
+@media screen and (min-width: 640px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1536px) {
+}
+/*============
+  MEDIA QUERY
+==============*/
