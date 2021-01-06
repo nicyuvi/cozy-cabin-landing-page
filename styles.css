@@ -127,18 +127,33 @@ img {
   --white: #fff8f0;
   --light-blue: #8ecae6;
   --blue: #219ebc;
-  --purple: #023047;
+  --dark-blue: #023047;
 }
-/* flex center */
+
+.main-container {
+  width: 90%;
+  margin: auto;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* object fit: cover  */
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .cover {
   object-fit: cover;
+}
+
+/* anchor tags */
+a {
+  text-decoration: none;
 }
 /*==========
   GENERAL
@@ -150,6 +165,11 @@ body {
   /* font weight: 300, 400, 700, 900 */
   font-family: 'Roboto', sans-serif;
 }
+
+header nav ul li a {
+  font-size: 1.25rem;
+  color: var(--dark-blue);
+}
 /*==========
   TYPOGRAPHY
 =============*/
@@ -157,6 +177,28 @@ body {
 /*==========
   LAYOUT
 =============*/
+/** NAV BAR **/
+#mobile-nav-bar {
+  background-color: var(--white);
+  padding: 1em 0;
+}
+
+#mobile-nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s ease-in all;
+}
+
+#mobile-nav-links.active {
+  height: 180px;
+}
+
+#mobile-nav-links li {
+  margin-bottom: 1em;
+  text-align: center;
+}
+/** NAV BAR **/
+
 #hero {
   position: relative;
   background-color: lightblue;
@@ -190,7 +232,16 @@ body {
 /*==========
   COMPONENTS
 =============*/
+/*** NAV BAR ***/
+.brand-logo-container {
+  width: 70px;
+}
 /* ham bar */
+.hamburger {
+  width: 50px;
+  height: 50px;
+}
+
 .hamburger .bar {
   height: 3px;
   width: 30px;
@@ -227,6 +278,8 @@ body {
   top: 0;
 }
 /* ham bar */
+/*** NAV BAR ***/
+
 /*==========
   COMPONENTS
 =============*/
