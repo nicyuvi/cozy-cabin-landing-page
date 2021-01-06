@@ -314,6 +314,9 @@ header nav ul li a {
 .activity-text {
   margin-bottom: 1em;
 }
+.activity-text h2 {
+  margin-bottom: 0.5em;
+}
 /** ACTIVITY **/
 /*==========
   LAYOUT
@@ -535,9 +538,27 @@ header nav ul li a {
     bottom: -2px;
   }
   /*** HERO ***/
+
+  /*** ACTIVITY ***/
+  .activity-text,
+  .activity-image-container {
+    width: 47%;
+  }
+  .activity-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .activity-container-reverse {
+    flex-direction: row-reverse;
+  }
+  /*** ACTIVITY ***/
 }
 
 @media screen and (min-width: 1024px) {
+  .section-title {
+    font-size: 3rem;
+  }
   /*** HERO ***/
   .hero-title {
     font-size: 4rem;
@@ -556,6 +577,18 @@ header nav ul li a {
   }
 
   /*** HERO ***/
+
+  /** Activity **/
+  .activity-container {
+    margin-bottom: 9rem;
+  }
+  .activity-text h2 {
+    font-size: 2rem;
+  }
+  .activity-text p {
+    font-size: 1.5rem;
+  }
+  /** Activity **/
 }
 
 @media screen and (min-width: 1280px) {
@@ -566,6 +599,11 @@ header nav ul li a {
   header nav ul li a {
     font-size: 1.25rem;
   }
+  /** Activity **/
+  .activity-btn {
+    font-size: 1.5rem;
+  }
+  /** Activity **/
 }
 
 @media screen and (min-width: 1536px) {
