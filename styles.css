@@ -121,6 +121,14 @@ img {
 /*==========
   GENERAL
 =============*/
+:root {
+  --orange: #fb8500;
+  --yellow: #ffb703;
+  --white: #fff8f0;
+  --light-blue: #8ecae6;
+  --blue: #219ebc;
+  --purple: #023047;
+}
 /* flex center */
 .flex-center {
   display: flex;
