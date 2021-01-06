@@ -201,7 +201,9 @@ body {
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 900;
+  letter-spacing: 2px;
   color: var(--dark-blue);
   text-align: center;
 }
@@ -237,7 +239,14 @@ header nav ul li a {
 /** HERO **/
 
 /** ACTIVITIES **/
-
+.activity-text h2 {
+  font-size: 1.25rem;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+.activity-text p {
+  line-height: 1.5;
+}
 /** ACTIVITIES **/
 /*==========
   TYPOGRAPHY
@@ -386,12 +395,32 @@ header nav ul li a {
 /*** HERO ***/
 
 /*** ACTIVITIES ***/
+.activity-image-container {
+  position: relative;
+}
+.activity-img {
+  display: block;
+  margin: auto;
+  width: 65%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.activity-btn {
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+}
 .activity-shape {
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  z-index: -1;
+  top: 85%;
+  left: 50%;
+  width: 85%;
+  height: 100%;
   background: var(--blue);
   border-radius: 10px;
-  transform: skew(10deg, 10deg);
+  transform: skew(5deg, 5deg) translate(-50%, -50%);
 }
 /*** ACTIVITIES ***/
 /*==========
