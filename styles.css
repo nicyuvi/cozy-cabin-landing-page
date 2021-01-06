@@ -163,8 +163,7 @@ html {
   transition: 0.3s ease all;
 }
 .btn-dark:hover {
-  background: var(--yellow);
-  color: var(--dark-blue);
+  background: var(--orange);
 }
 
 .btn-light {
@@ -200,6 +199,12 @@ body {
   color: var(--light-blue);
   font-size: 2rem;
 }
+
+.section-title {
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  text-align: center;
+}
 /** GENERAL **/
 
 /** HEADER **/
@@ -230,6 +235,10 @@ header nav ul li a {
   font-size: 1.5rem;
 }
 /** HERO **/
+
+/** ACTIVITIES **/
+
+/** ACTIVITIES **/
 /*==========
   TYPOGRAPHY
 =============*/
@@ -376,6 +385,15 @@ header nav ul li a {
 /* wave border */
 /*** HERO ***/
 
+/*** ACTIVITIES ***/
+.activity-shape {
+  width: 100px;
+  height: 100px;
+  background: var(--blue);
+  border-radius: 10px;
+  transform: skew(10deg, 10deg);
+}
+/*** ACTIVITIES ***/
 /*==========
   COMPONENTS
 =============*/
@@ -465,6 +483,10 @@ header nav ul li a {
 }
 
 @media screen and (min-width: 1280px) {
+  .main-container {
+    width: 80%;
+  }
+
   header nav ul li a {
     font-size: 1.25rem;
   }
