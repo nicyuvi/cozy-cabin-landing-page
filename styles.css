@@ -206,6 +206,7 @@ body {
   letter-spacing: 2px;
   color: var(--dark-blue);
   text-align: center;
+  margin-bottom: 1em;
 }
 /** GENERAL **/
 
@@ -247,6 +248,9 @@ header nav ul li a {
 .activity-text p {
   line-height: 1.5;
 }
+.activity-text-reverse {
+  text-align: right;
+}
 /** ACTIVITIES **/
 /*==========
   TYPOGRAPHY
@@ -255,6 +259,12 @@ header nav ul li a {
 /*==========
   LAYOUT
 =============*/
+/** GENERAL LAYOUT **/
+#hero {
+  margin-bottom: 1.5em;
+}
+/** GENERAL LAYOUT **/
+
 /** NAV BAR **/
 #desktop-nav {
   display: none;
@@ -296,6 +306,15 @@ header nav ul li a {
   margin-bottom: 2em;
 }
 /** HERO **/
+
+/** ACTIVITY **/
+.activity-container {
+  margin-bottom: 6em;
+}
+.activity-text {
+  margin-bottom: 1em;
+}
+/** ACTIVITY **/
 /*==========
   LAYOUT
 =============*/
@@ -395,6 +414,7 @@ header nav ul li a {
 /*** HERO ***/
 
 /*** ACTIVITIES ***/
+
 .activity-image-container {
   position: relative;
 }
@@ -418,10 +438,31 @@ header nav ul li a {
   left: 50%;
   width: 85%;
   height: 100%;
-  background: var(--blue);
   border-radius: 10px;
   transform: skew(5deg, 5deg) translate(-50%, -50%);
 }
+.activity-shape-reverse {
+  position: absolute;
+  z-index: -1;
+  top: 70%;
+  left: 50%;
+  width: 85%;
+  height: 100%;
+  border-radius: 10px;
+  transform: skew(-5deg, -5deg) translate(-50%, -50%);
+}
+
+/* shape colors */
+.activity-shape-orange {
+  background: var(--orange);
+}
+.activity-shape-blue {
+  background: var(--blue);
+}
+.activity-shape-yellow {
+  background: var(--yellow);
+}
+/* shape colors */
 /*** ACTIVITIES ***/
 /*==========
   COMPONENTS
@@ -434,6 +475,12 @@ header nav ul li a {
   .main-container {
     width: 90%;
   }
+
+  /*** ACTIVITIES ***/
+  .activity-container {
+    margin-bottom: 7.5em;
+  }
+  /*** ACTIVITIES ***/
 }
 
 @media screen and (min-width: 768px) {
