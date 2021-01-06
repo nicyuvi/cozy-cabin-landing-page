@@ -190,6 +190,43 @@ body {
 /*==========
   COMPONENTS
 =============*/
+/* ham bar */
+.hamburger .bar {
+  height: 3px;
+  width: 30px;
+  position: relative;
+  background-color: black;
+}
+
+.hamburger .bar::after,
+.hamburger .bar::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background-color: black;
+  transition: 0.3s ease;
+  transition-property: top, bottom;
+}
+
+/* Positions the top and bottom bars for ham menu */
+.hamburger .bar::after {
+  top: 8px;
+}
+
+.hamburger .bar::before {
+  bottom: 8px;
+}
+/* Active state. Top and bottom bars disappear  */
+.hamburger.active .bar::before {
+  bottom: 0;
+}
+
+.hamburger.active .bar::after {
+  top: 0;
+}
+/* ham bar */
 /*==========
   COMPONENTS
 =============*/
