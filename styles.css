@@ -266,6 +266,20 @@ header nav ul li a {
 }
 /** ACTIVITIES/CABINS **/
 
+/** CONTACT **/
+input[type='submit'] {
+  font-size: 1rem;
+}
+
+::placeholder {
+  color: var(--dark-blue);
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  font-size: 1rem;
+}
+/** CONTACT **/
 /*==========
   TYPOGRAPHY
 =============*/
@@ -276,6 +290,9 @@ header nav ul li a {
 /** GENERAL LAYOUT **/
 #hero {
   margin-bottom: 1.5em;
+}
+#cabins {
+  margin-bottom: 6em;
 }
 /** GENERAL LAYOUT **/
 
@@ -340,6 +357,12 @@ header nav ul li a {
 }
 /** CABINS **/
 
+/** CONTACT **/
+input,
+fieldset {
+  margin-bottom: 1.5em;
+}
+/** CONTACT **/
 /*==========
   LAYOUT
 =============*/
@@ -439,7 +462,6 @@ header nav ul li a {
 /*** HERO ***/
 
 /*** ACTIVITIES ***/
-
 .activity-image-container {
   position: relative;
 }
@@ -499,6 +521,7 @@ header nav ul li a {
   border-radius: 10px;
   box-shadow: 0px 10px 15px -2px #9b9b9b;
   transition: 0.3s ease-out all;
+  cursor: pointer;
 }
 
 .cabin-card:hover {
@@ -543,6 +566,43 @@ header nav ul li a {
   fill: #ffffff;
 }
 /*** CABINS ***/
+/*** CONTACT ***/
+input {
+  width: 100%;
+}
+
+input[type='text'],
+input[type='tel'] {
+  border: none;
+  border-bottom: 2px solid var(--dark-blue);
+  padding: 0.5em 0.5em 0 0.5em;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+input[type='submit'] {
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  border: none;
+  background: var(--orange);
+  color: var(--white);
+}
+
+select {
+  border: 1px solid var(--dark-blue);
+  padding: 0.5em;
+}
+
+input[type='text']:focus,
+input[type='tel']:focus,
+select:focus {
+  box-shadow: 0 0 5px 2px var(--light-blue);
+  outline: 1px solid var(--light-blue);
+}
+
+/*** CONTACT ***/
 /*==========
   COMPONENTS
 =============*/
@@ -679,6 +739,20 @@ header nav ul li a {
     width: 30%;
   }
   /*** CABINS ***/
+
+  /*** CONTACT ***/
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-text,
+  #contact-form {
+    width: 47%;
+    max-width: 800px;
+  }
+  /*** CONTACT ***/
 }
 
 @media screen and (min-width: 1280px) {
@@ -697,6 +771,9 @@ header nav ul li a {
 }
 
 @media screen and (min-width: 1536px) {
+  .main-container {
+    width: 70%;
+  }
 }
 /*============
   MEDIA QUERY
