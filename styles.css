@@ -250,9 +250,10 @@ header nav ul li a {
 }
 /** HERO **/
 
-/** ACTIVITIES/CABINS **/
+/** ACTIVITIES/CABINS/FOOTER **/
 .activity-text h2,
-.cabin-text h2 {
+.cabin-text h2,
+.footer-item h4 {
   font-size: 1.25rem;
   color: var(--dark-blue);
   font-weight: 700;
@@ -260,11 +261,12 @@ header nav ul li a {
 .activity-text p,
 .cabin-text p {
   line-height: 1.5;
+  color: rgb(82, 82, 82);
 }
 .activity-text-reverse {
   text-align: right;
 }
-/** ACTIVITIES/CABINS **/
+/** ACTIVITIES/CABINS/FOOTER **/
 
 /** CONTACT **/
 input[type='submit'] {
@@ -280,6 +282,18 @@ input {
   font-size: 1rem;
 }
 /** CONTACT **/
+
+/** FOOTER **/
+.footer-item a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--dark-blue);
+  transition: 0.3s ease all;
+}
+.footer-item a:hover {
+  color: #02304794;
+}
+/** FOOTER **/
 /*==========
   TYPOGRAPHY
 =============*/
@@ -291,7 +305,8 @@ input {
 #hero {
   margin-bottom: 1.5em;
 }
-#cabins {
+#cabins,
+#contact {
   margin-bottom: 6em;
 }
 /** GENERAL LAYOUT **/
@@ -363,6 +378,24 @@ fieldset {
   margin-bottom: 1.5em;
 }
 /** CONTACT **/
+
+/** FOOTER **/
+#footer {
+  padding-top: 4rem;
+}
+
+.footer-item {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer-item h4,
+.footer-item a {
+  margin-bottom: 0.5em;
+}
+/** FOOTER **/
 /*==========
   LAYOUT
 =============*/
@@ -603,6 +636,43 @@ select:focus {
 }
 
 /*** CONTACT ***/
+
+/*** FOOTER ***/
+.full-brand-container {
+  width: 200px;
+}
+#footer {
+  position: relative;
+  min-height: 650px;
+  background: var(--light-blue);
+  /* background-image: linear-gradient(
+    180deg,
+    rgba(251, 133, 0, 0.5) 0%,
+    rgba(99, 143, 163, 0.55) 70%,
+    rgba(2, 48, 71, 0.8) 100%
+  ); */
+}
+.custom-shape-divider-top-1609997815 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1609997815 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 111px;
+}
+
+.custom-shape-divider-top-1609997815 .shape-fill {
+  fill: #ffffff;
+}
+/*** FOOTER ***/
 /*==========
   COMPONENTS
 =============*/
