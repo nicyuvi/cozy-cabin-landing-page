@@ -133,7 +133,7 @@ img {
 html {
   scroll-behavior: smooth;
 }
-body {
+.overflow-wrapper {
   overflow-x: hidden;
 }
 .main-container {

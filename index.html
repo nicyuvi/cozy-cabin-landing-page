@@ -14,357 +14,358 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!--  HEADER -->
-  <header>
-    <!-- mobile view nav -->
-    <div id="mobile-nav">
-      <section id="mobile-nav-bar">
-        <div class="flex-between main-container">
-          <div class="brand-logo-container">
-            <a href="#" title="home page">
-              <img src="./assets/brand-logo.png" alt="brand logo">
-            </a>
+  <div class="overflow-wrapper">
+    <!--  HEADER -->
+    <header>
+      <!-- mobile view nav -->
+      <div id="mobile-nav">
+        <section id="mobile-nav-bar">
+          <div class="flex-between main-container">
+            <div class="brand-logo-container">
+              <a href="#" title="home page">
+                <img src="./assets/brand-logo.png" alt="brand logo">
+              </a>
+            </div>
+            <div class="hamburger flex-center">
+              <div class="bar"></div>
+            </div>
           </div>
-          <div class="hamburger flex-center">
-            <div class="bar"></div>
+        </section>
+        <nav>
+          <ul id="mobile-nav-links">
+            <li>
+              <a href="#" title="help page">Help</a>
+            </li>
+            <li>
+              <a href="#" title="pricing page">Pricing</a>
+            </li>
+            <li>
+              <a href="#" title="about us page">About Us</a>
+            </li>
+            <li>
+              <a href="#" title="login page">Login</a>
+            </li>
+            <li>
+              <a class="btn-dark" href="#" title="get started page">Get Started</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- desktop nav -->
+      <nav id="desktop-nav">
+        <div class="flex-between main-container">
+          <ul id="desktop-nav-left" class="flex-center">
+            <li class="brand-name-container">
+              <a href="#hero" title="home page">
+                <h1 class="brand-logo">Cozy Cabins</h1>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="help page">Help</a>
+            </li>
+            <li>
+              <a href="#" title="pricing page">Pricing</a>
+            </li>
+            <li>
+              <a href="#" title="about us page">About Us</a>
+            </li>
+          </ul>
+          <ul id="desktop-nav-right" class="flex-center">
+            <li>
+              <a href="#" title="login page">Login</a>
+            </li>
+            <li>
+              <a class="btn-light" href="#activities" title="get started page">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--  HEADER -->
+
+    <!-- MAIN -->
+    <main>
+      <!-- HERO SECTION -->
+      <section id="hero">
+        <div class="hero-container main-container">
+          <h2 class="hero-title">You deserve the best comfort.</h2>
+          <h2 class="hero-subtitle">Take a break from your daily routine and come relax with us!</h2>
+          <div class="hero-btn-wrapper">
+            <a href="#activities" class="btn-light">Start Your Adventure</a>
+          </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom-1609889842">
+          <img src="./assets/waves.svg" alt="wavy border">
+        </div>
+      </section>
+      <!-- HERO SECTION -->
+
+      <!-- ACTIVITIES SECTION -->
+      <section id="activities">
+        <div class="main-container">
+          <h2 class="section-title">Activities</h2>
+          <div class="activity-container fade fadeOutRight">
+            <div class="activity-text">
+              <h2>Take a Hike</h2>
+              <p>In most areas, finding good hikes can be tough. Luckily, at Cozy Cabins retreat you don't have to go far to find quality hiking trails. Spend time with family and friends in the great outdoors!</p>
+            </div>
+            <div class="activity-image-container">
+              <img class="activity-img" src="./assets/hike-img.jpg" alt="person hiking">
+              <a class="activity-btn btn-dark" href="#" title="learn more">Learn More</a>
+              <div class="activity-shape-reverse activity-shape-orange"></div>
+            </div>
+          </div>
+          <div class="activity-container activity-container-reverse fade fadeOutLeft">
+            <div class="activity-text activity-text-reverse">
+              <h2>Go for a Swim</h2>
+              <p>Very few things are as satisfying as taking plunge into the cool waters on a hot day. Have fun swimming or just hanging out around the beautiful lake.</p>
+            </div>
+            <div class="activity-image-container">
+              <img class="activity-img" src="./assets/swim-img.jpg" alt="person swimming">
+              <a class="activity-btn btn-dark" href="#" title="learn more">Learn More</a>
+              <div class="activity-shape activity-shape-blue"></div>
+            </div>
+          </div>
+          <div class="activity-container fade fadeOutRight">
+            <div class="activity-text">
+              <h2>Gather Around the Fire</h2>
+              <p>Nothing is as comforting than spending time around a nice campfire with your friends and family. Enjoy the peaceful sounds of crackling embers as you watch the dancing flames.</p>
+            </div>
+            <div class="activity-image-container">
+              <img class="activity-img" src="./assets/fire-img.jpg" alt="bonfire">
+              <a class="activity-btn btn-dark" href="#" title="learn more">Learn More</a>
+              <div class="activity-shape-reverse activity-shape-yellow"></div>
+            </div>
           </div>
         </div>
       </section>
-      <nav>
-        <ul id="mobile-nav-links">
-          <li>
-            <a href="#" title="help page">Help</a>
-          </li>
-          <li>
-            <a href="#" title="pricing page">Pricing</a>
-          </li>
-          <li>
-            <a href="#" title="about us page">About Us</a>
-          </li>
-          <li>
-            <a href="#" title="login page">Login</a>
-          </li>
-          <li>
-            <a class="btn-dark" href="#" title="get started page">Get Started</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <!-- desktop nav -->
-    <nav id="desktop-nav">
-      <div class="flex-between main-container">
-        <ul id="desktop-nav-left" class="flex-center">
-          <li class="brand-name-container">
-            <a href="#hero" title="home page">
-              <h1 class="brand-logo">Cozy Cabins</h1>
-            </a>
-          </li>
-          <li>
-            <a href="#" title="help page">Help</a>
-          </li>
-          <li>
-            <a href="#" title="pricing page">Pricing</a>
-          </li>
-          <li>
-            <a href="#" title="about us page">About Us</a>
-          </li>
-        </ul>
-        <ul id="desktop-nav-right" class="flex-center">
-          <li>
-            <a href="#" title="login page">Login</a>
-          </li>
-          <li>
-            <a class="btn-light" href="#activities" title="get started page">Get Started</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <!--  HEADER -->
+      <!-- ACTIVITIES SECTION -->
 
-  <!-- MAIN -->
-  <main>
-    <!-- HERO SECTION -->
-    <section id="hero">
-      <div class="hero-container main-container">
-        <h2 class="hero-title">You deserve the best comfort.</h2>
-        <h2 class="hero-subtitle">Take a break from your daily routine and come relax with us!</h2>
-        <div class="hero-btn-wrapper">
-          <a href="#activities" class="btn-light">Start Your Adventure</a>
-        </div>
-      </div>
-
-      <div class="custom-shape-divider-bottom-1609889842">
-        <img src="./assets/waves.svg" alt="wavy border">
-      </div>
-    </section>
-    <!-- HERO SECTION -->
-
-    <!-- ACTIVITIES SECTION -->
-    <section id="activities">
-      <div class="main-container">
-        <h2 class="section-title">Activities</h2>
-        <div class="activity-container fade fadeOutRight">
-          <div class="activity-text">
-            <h2>Take a Hike</h2>
-            <p>In most areas, finding good hikes can be tough. Luckily, at Cozy Cabins retreat you don't have to go far to find quality hiking trails. Spend time with family and friends in the great outdoors!</p>
-          </div>
-          <div class="activity-image-container">
-            <img class="activity-img" src="./assets/hike-img.jpg" alt="person hiking">
-            <a class="activity-btn btn-dark" href="#" title="learn more">Learn More</a>
-            <div class="activity-shape-reverse activity-shape-orange"></div>
-          </div>
-        </div>
-        <div class="activity-container activity-container-reverse fade fadeOutLeft">
-          <div class="activity-text activity-text-reverse">
-            <h2>Go for a Swim</h2>
-            <p>Very few things are as satisfying as taking plunge into the cool waters on a hot day. Have fun swimming or just hanging out around the beautiful lake.</p>
-          </div>
-          <div class="activity-image-container">
-            <img class="activity-img" src="./assets/swim-img.jpg" alt="person swimming">
-            <a class="activity-btn btn-dark" href="#" title="learn more">Learn More</a>
-            <div class="activity-shape activity-shape-blue"></div>
-          </div>
-        </div>
-        <div class="activity-container fade fadeOutRight">
-          <div class="activity-text">
-            <h2>Gather Around the Fire</h2>
-            <p>Nothing is as comforting than spending time around a nice campfire with your friends and family. Enjoy the peaceful sounds of crackling embers as you watch the dancing flames.</p>
-          </div>
-          <div class="activity-image-container">
-            <img class="activity-img" src="./assets/fire-img.jpg" alt="bonfire">
-            <a class="activity-btn btn-dark" href="#" title="learn more">Learn More</a>
-            <div class="activity-shape-reverse activity-shape-yellow"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ACTIVITIES SECTION -->
-
-    <!-- CABINS SECTION -->
-    <section id="cabins">
-      <div class="main-container">
-        <h2 class="section-title">Cabins</h2>
-        <div class="cabin-card-container">
-          <div class="cabin-card fade fadeOutDown">
-            <img src="./assets/cabin1-img.jpg" alt="cabin on a lake">
-            <div class="cabin-text">
-              <h2>Lakeview Cabin</h2>
-              <p>From the outside this cabin looks nice and traditional. It has been built with bricks covered in render and has white
-              pine wooden decorations. Short, wide windows let in plenty of light and have been added to the house in a mostly
-              symmetric way.</p>
-              <p class="cabin-price">$200/Night</p>
+      <!-- CABINS SECTION -->
+      <section id="cabins">
+        <div class="main-container">
+          <h2 class="section-title">Cabins</h2>
+          <div class="cabin-card-container">
+            <div class="cabin-card fade fadeOutDown">
+              <img src="./assets/cabin1-img.jpg" alt="cabin on a lake">
+              <div class="cabin-text">
+                <h2>Lakeview Cabin</h2>
+                <p>From the outside this cabin looks nice and traditional. It has been built with bricks covered in render and has white
+                pine wooden decorations. Short, wide windows let in plenty of light and have been added to the house in a mostly
+                symmetric way.</p>
+                <p class="cabin-price">$200/Night</p>
+              </div>
+            </div>
+            <div class="cabin-card fade fadeOutDown">
+              <img src="./assets/cabin2-img.jpg" alt="cabin on mountains">
+              <div class="cabin-text">
+                <h2>Mountain View Cabin</h2>
+                <p>The cabin is equipped with an old-fashioned kitchen and one modern bathroom, it also has a generous living room, two
+                bedrooms, a large dining area, a bar and a spacious basement.</p>
+                <p class="cabin-price">$200/Night</p>
+              </div>
+            </div>
+            <div class="cabin-card fade fadeOutDown">
+              <img src="./assets/cabin3-img.jpg" alt="cabin in the snow">
+              <div class="cabin-text">
+                <h2>Snow Packed Cabin</h2>
+                <p>From the outside this house looks gorgeous. It has been built with red bricks and has sandstone decorations. Large,
+                octagon windows let in plenty of light and have been added to the house in a fairly symmetrical pattern.</p>
+                <p class="cabin-price">$200/Night</p>
+              </div>
             </div>
           </div>
-          <div class="cabin-card fade fadeOutDown">
-            <img src="./assets/cabin2-img.jpg" alt="cabin on mountains">
-            <div class="cabin-text">
-              <h2>Mountain View Cabin</h2>
-              <p>The cabin is equipped with an old-fashioned kitchen and one modern bathroom, it also has a generous living room, two
-              bedrooms, a large dining area, a bar and a spacious basement.</p>
-              <p class="cabin-price">$200/Night</p>
+          <div class="cabin-btn-container">
+            <a class="btn-light flex-center" href="#" title="see all cabins">See All Cabins</a>
+          </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1609986637">
+          <img src="./assets/curveNegative.svg" alt="curved border">
+        </div>
+      </section>
+      <!-- CABINS SECTION -->
+
+      <!-- TESTIMONIALS SECTION -->
+      <section id="testimonials">
+        <div class="main-container">
+          <div class="section-title">
+            <h3>Read What Our Members Have to Say</h3>
+          </div>
+          <div class="testimonials-container">
+            <div class="member-image-container fade fadeOutLeft">
+              <img class="portrait-image" src="./assets/portrait1.jpg" alt="portrait picture">
+              <div class="blob-shape">
+                <img src="./assets/blob1.svg" alt="blob shape">
+              </div>
+            </div>
+            <div class="member-quotes-container fade fadeOutRight">
+              <i class="fas fa-quote-left"></i>
+              <p>I can't say enough about cabin. Not able to tell you how happy I am with cabin. The very best.</p>
+              <i class="fas fa-quote-right"></i>
             </div>
           </div>
-          <div class="cabin-card fade fadeOutDown">
-            <img src="./assets/cabin3-img.jpg" alt="cabin in the snow">
-            <div class="cabin-text">
-              <h2>Snow Packed Cabin</h2>
-              <p>From the outside this house looks gorgeous. It has been built with red bricks and has sandstone decorations. Large,
-              octagon windows let in plenty of light and have been added to the house in a fairly symmetrical pattern.</p>
-              <p class="cabin-price">$200/Night</p>
+          <div class="testimonials-container testimonials-container-reverse">
+            <div class="member-image-container fade fadeOutRight">
+              <img class="portrait-image" src="./assets/portrait2.jpg" alt="portrait picture">
+              <div class="blob-shape">
+                <img src="./assets/blob2.svg" alt="blob shape">
+              </div>
+            </div>
+            <div class="member-quotes-container fade fadeOutLeft">
+              <i class="fas fa-quote-left"></i>
+              <p>Not able to tell you how happy I am with retreat. Retreat is the most valuable business resource we have EVER purchased.</p>
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="testimonials-container">
+            <div class="member-image-container fade fadeOutLeft">
+              <img class="portrait-image" src="./assets/portrait3.jpg" alt="portrait picture">
+              <div class="blob-shape">
+                <img src="./assets/blob3.svg" alt="blob shape">
+              </div>
+            </div>
+            <div class="member-quotes-container fade fadeOutRight">
+              <i class="fas fa-quote-left"></i>
+              <p>Mountain is worth much more than I paid. Man, this thing is getting better and better as I learn more about it. Mountain
+              is worth much more than I paid.</p>
+              <i class="fas fa-quote-right"></i>
             </div>
           </div>
         </div>
-        <div class="cabin-btn-container">
-          <a class="btn-light flex-center" href="#" title="see all cabins">See All Cabins</a>
-        </div>
-      </div>
-      <div class="custom-shape-divider-bottom-1609986637">
-        <img src="./assets/curveNegative.svg" alt="curved border">
-      </div>
-    </section>
-    <!-- CABINS SECTION -->
+      </section>
+      <!-- TESTIMONIALS SECTION -->
 
-    <!-- TESTIMONIALS SECTION -->
-    <section id="testimonials">
-      <div class="main-container">
-        <div class="section-title">
-          <h3>Read What Our Members Have to Say</h3>
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <div class="contact-container main-container">
+          <div class="contact-text section-title fade fadeOutLeft">
+            <h3>What are you waiting for? Start your adventure today.</h3>
+          </div>
+          <form id="contact-form" action="#" class="fade fadeOutRight">
+              <!-- first name input -->
+              <div class="first-name-error"></div>
+              <label class="sr-only" for="firstName">Please enter your first name.</label>
+              <input type="text" id="firstName" name="firstName" placeholder="First Name">
+              <!-- last name input -->
+              <div class="last-name-error"></div>
+              <label class="sr-only" for="lastName">Please enter your last name.</label>
+              <input type="text" id="lastName" name="firstName" placeholder="Last Name">
+              <!-- email input -->
+              <div class="email-error"></div>
+              <label class="sr-only" for="email">Please enter your email</label>
+              <input type="text" id="email" name="email" placeholder="Email">
+              <!-- phone input -->
+              <div class="phone-error"></div>
+              <label class="sr-only" for="phone">Please enter your phone number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Phone Number: xxx-xxx-xxxx">
+          
+            <fieldset>
+              <div class="state-error"></div>
+              <label class="sr-only" for="state">State</label>
+              <select id="state" name="state">
+                <option value=""><span>Choose your state</span></option>
+                <option value="Alabama">Alabama</option>
+                <option value="Alaska">Alaska</option>
+                <option value="Arizona">Arizona</option>
+                <option value="Arkansas">Arkansas</option>
+                <option value="California">California</option>
+                <option value="Colorado">Colorado</option>
+                <option value="Connecticut">Connecticut</option>
+                <option value="Delaware">Delaware</option>
+                <option value="District of Columbia">District of Columbia</option>
+                <option value="Florida">Florida</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Guam">Guam</option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="Idaho">Idaho</option>
+                <option value="Illinois">Illinois</option>
+                <option value="Indiana">Indiana</option>
+                <option value="Iowa">Iowa</option>
+                <option value="Kansas">Kansas</option>
+                <option value="Kentucky">Kentucky</option>
+                <option value="Louisiana">Louisiana</option>
+                <option value="Maine">Maine</option>
+                <option value="Maryland">Maryland</option>
+                <option value="Massachusetts">Massachusetts</option>
+                <option value="Michigan">Michigan</option>
+                <option value="Minnesota">Minnesota</option>
+                <option value="Mississippi">Mississippi</option>
+                <option value="Missouri">Missouri</option>
+                <option value="Montana">Montana</option>
+                <option value="Nebraska">Nebraska</option>
+                <option value="Nevada">Nevada</option>
+                <option value="New Hampshire">New Hampshire</option>
+                <option value="New Jersey">New Jersey</option>
+                <option value="New Mexico">New Mexico</option>
+                <option value="New York">New York</option>
+                <option value="North Carolina">North Carolina</option>
+                <option value="North Dakota">North Dakota</option>
+                <option value="Northern Marianas Islands">Northern Marianas Islands</option>
+                <option value="Ohio">Ohio</option>
+                <option value="Oklahoma">Oklahoma</option>
+                <option value="Oregon">Oregon</option>
+                <option value="Pennsylvania">Pennsylvania</option>
+                <option value="Puerto Rico">Puerto Rico</option>
+                <option value="Rhode Island">Rhode Island</option>
+                <option value="South Carolina">South Carolina</option>
+                <option value="South Dakota">South Dakota</option>
+                <option value="Tennessee">Tennessee</option>
+                <option value="Texas">Texas</option>
+                <option value="Utah">Utah</option>
+                <option value="Vermont">Vermont</option>
+                <option value="Virginia">Virginia</option>
+                <option value="Virgin Islands">Virgin Islands</option>
+                <option value="Washington">Washington</option>
+                <option value="West Virginia">West Virginia</option>
+                <option value="Wisconsin">Wisconsin</option>
+                <option value="Wyoming">Wyoming</option>
+              </select>
+            </fieldset>
+            <input id="submit-btn" class="btn-light" type="submit" value="Submit">
+          </form>
         </div>
-        <div class="testimonials-container">
-          <div class="member-image-container fade fadeOutLeft">
-            <img class="portrait-image" src="./assets/portrait1.jpg" alt="portrait picture">
-            <div class="blob-shape">
-              <img src="./assets/blob1.svg" alt="blob shape">
-            </div>
-          </div>
-          <div class="member-quotes-container fade fadeOutRight">
-            <i class="fas fa-quote-left"></i>
-            <p>I can't say enough about cabin. Not able to tell you how happy I am with cabin. The very best.</p>
-            <i class="fas fa-quote-right"></i>
-          </div>
-        </div>
-        <div class="testimonials-container testimonials-container-reverse">
-          <div class="member-image-container fade fadeOutRight">
-            <img class="portrait-image" src="./assets/portrait2.jpg" alt="portrait picture">
-            <div class="blob-shape">
-              <img src="./assets/blob2.svg" alt="blob shape">
-            </div>
-          </div>
-          <div class="member-quotes-container fade fadeOutLeft">
-            <i class="fas fa-quote-left"></i>
-            <p>Not able to tell you how happy I am with retreat. Retreat is the most valuable business resource we have EVER purchased.</p>
-            <i class="fas fa-quote-right"></i>
-          </div>
-        </div>
-        <div class="testimonials-container">
-          <div class="member-image-container fade fadeOutLeft">
-            <img class="portrait-image" src="./assets/portrait3.jpg" alt="portrait picture">
-            <div class="blob-shape">
-              <img src="./assets/blob3.svg" alt="blob shape">
-            </div>
-          </div>
-          <div class="member-quotes-container fade fadeOutRight">
-            <i class="fas fa-quote-left"></i>
-            <p>Mountain is worth much more than I paid. Man, this thing is getting better and better as I learn more about it. Mountain
-            is worth much more than I paid.</p>
-            <i class="fas fa-quote-right"></i>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- TESTIMONIALS SECTION -->
+      </section>
+      <!-- CONTACT SECTION -->
+    </main>
+    <!-- MAIN -->
 
-    <!-- CONTACT SECTION -->
-    <section id="contact">
-      <div class="contact-container main-container">
-        <div class="contact-text section-title fade fadeOutLeft">
-          <h3>What are you waiting for? Start your adventure today.</h3>
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="footer-container main-container">
+        <div class="footer-item">
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Learn More</a>
         </div>
-        <form id="contact-form" action="#" class="fade fadeOutRight">
-            <!-- first name input -->
-            <div class="first-name-error"></div>
-            <label class="sr-only" for="firstName">Please enter your first name.</label>
-            <input type="text" id="firstName" name="firstName" placeholder="First Name">
-            <!-- last name input -->
-            <div class="last-name-error"></div>
-            <label class="sr-only" for="lastName">Please enter your last name.</label>
-            <input type="text" id="lastName" name="firstName" placeholder="Last Name">
-            <!-- email input -->
-            <div class="email-error"></div>
-            <label class="sr-only" for="email">Please enter your email</label>
-            <input type="text" id="email" name="email" placeholder="Email">
-            <!-- phone input -->
-            <div class="phone-error"></div>
-            <label class="sr-only" for="phone">Please enter your phone number</label>
-            <input type="tel" id="phone" name="phone" placeholder="Phone Number: xxx-xxx-xxxx">
-        
-          <fieldset>
-            <div class="state-error"></div>
-            <label class="sr-only" for="state">State</label>
-            <select id="state" name="state">
-              <option value=""><span>Choose your state</span></option>
-              <option value="Alabama">Alabama</option>
-              <option value="Alaska">Alaska</option>
-              <option value="Arizona">Arizona</option>
-              <option value="Arkansas">Arkansas</option>
-              <option value="California">California</option>
-              <option value="Colorado">Colorado</option>
-              <option value="Connecticut">Connecticut</option>
-              <option value="Delaware">Delaware</option>
-              <option value="District of Columbia">District of Columbia</option>
-              <option value="Florida">Florida</option>
-              <option value="Georgia">Georgia</option>
-              <option value="Guam">Guam</option>
-              <option value="Hawaii">Hawaii</option>
-              <option value="Idaho">Idaho</option>
-              <option value="Illinois">Illinois</option>
-              <option value="Indiana">Indiana</option>
-              <option value="Iowa">Iowa</option>
-              <option value="Kansas">Kansas</option>
-              <option value="Kentucky">Kentucky</option>
-              <option value="Louisiana">Louisiana</option>
-              <option value="Maine">Maine</option>
-              <option value="Maryland">Maryland</option>
-              <option value="Massachusetts">Massachusetts</option>
-              <option value="Michigan">Michigan</option>
-              <option value="Minnesota">Minnesota</option>
-              <option value="Mississippi">Mississippi</option>
-              <option value="Missouri">Missouri</option>
-              <option value="Montana">Montana</option>
-              <option value="Nebraska">Nebraska</option>
-              <option value="Nevada">Nevada</option>
-              <option value="New Hampshire">New Hampshire</option>
-              <option value="New Jersey">New Jersey</option>
-              <option value="New Mexico">New Mexico</option>
-              <option value="New York">New York</option>
-              <option value="North Carolina">North Carolina</option>
-              <option value="North Dakota">North Dakota</option>
-              <option value="Northern Marianas Islands">Northern Marianas Islands</option>
-              <option value="Ohio">Ohio</option>
-              <option value="Oklahoma">Oklahoma</option>
-              <option value="Oregon">Oregon</option>
-              <option value="Pennsylvania">Pennsylvania</option>
-              <option value="Puerto Rico">Puerto Rico</option>
-              <option value="Rhode Island">Rhode Island</option>
-              <option value="South Carolina">South Carolina</option>
-              <option value="South Dakota">South Dakota</option>
-              <option value="Tennessee">Tennessee</option>
-              <option value="Texas">Texas</option>
-              <option value="Utah">Utah</option>
-              <option value="Vermont">Vermont</option>
-              <option value="Virginia">Virginia</option>
-              <option value="Virgin Islands">Virgin Islands</option>
-              <option value="Washington">Washington</option>
-              <option value="West Virginia">West Virginia</option>
-              <option value="Wisconsin">Wisconsin</option>
-              <option value="Wyoming">Wyoming</option>
-            </select>
-          </fieldset>
-          <input id="submit-btn" class="btn-light" type="submit" value="Submit">
-        </form>
+        <div class="footer-item">
+          <address>
+            <h4>Contact Us</h4>
+            <p>1769 Ashwood Drive</p>
+            <p>Sioux City</p>
+            <p>Iowa</p>
+            <p>57701</p>
+          </address>
+        </div>
+        <div class="footer-item">
+          <h4>Social</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Linkedin</a>
+        </div>
+        <div class="footer-item full-brand-container">
+          <a href="#hero" title="home page">
+            <img src="./assets/brand-full.png" alt="full brand">
+          </a>
+        </div>
       </div>
-    </section>
-    <!-- CONTACT SECTION -->
-  </main>
-  <!-- MAIN -->
-
-  <!-- FOOTER -->
-  <footer id="footer">
-    <div class="footer-container main-container">
-      <div class="footer-item">
-        <h4>Company</h4>
-        <a href="#">About Us</a>
-        <a href="#">Careers</a>
-        <a href="#">Learn More</a>
+      <div class="custom-shape-divider-top-1610000651">
+        <img src="./assets/waves-footer.svg" alt="wave border">
       </div>
-      <div class="footer-item">
-        <address>
-          <h4>Contact Us</h4>
-          <p>1769 Ashwood Drive</p>
-          <p>Sioux City</p>
-          <p>Iowa</p>
-          <p>57701</p>
-        </address>
-      </div>
-      <div class="footer-item">
-        <h4>Social</h4>
-        <a href="#">Instagram</a>
-        <a href="#">Twitter</a>
-        <a href="#">Linkedin</a>
-      </div>
-      <div class="footer-item full-brand-container">
-        <a href="#hero" title="home page">
-          <img src="./assets/brand-full.png" alt="full brand">
-        </a>
-      </div>
-    </div>
-    <div class="custom-shape-divider-top-1610000651">
-      <img src="./assets/waves-footer.svg" alt="wave border">
-    </div>
-  </footer>
-  <!-- FOOTER -->
-
+    </footer>
+    <!-- FOOTER -->
+  </div>
   <script type="module" defer src="./app/index.js"></script>
 </body>
 </html>
