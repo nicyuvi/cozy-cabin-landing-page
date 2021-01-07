@@ -340,6 +340,29 @@ input {
   color: #02304794;
 }
 /** FOOTER **/
+
+/** TESTIMONIALS **/
+.member-quotes-container {
+  text-align: center;
+}
+.member-quotes-container p {
+  font-size: 1.25rem;
+  color: rgb(82, 82, 82);
+}
+.fa-quote-left,
+.fa-quote-right {
+  display: block;
+  font-size: 2rem;
+  color: var(--dark-blue);
+}
+
+.fa-quote-left {
+  text-align: left;
+}
+.fa-quote-right {
+  text-align: right;
+}
+/** TESTIMONIALS **/
 /*==========
   TYPOGRAPHY
 =============*/
@@ -442,6 +465,15 @@ fieldset {
   margin-bottom: 0.5em;
 }
 /** FOOTER **/
+
+/** TESTIMONIALS **/
+#testimonials h3 {
+  margin-bottom: 2em;
+}
+.fa-quote-right {
+  margin-bottom: 2em;
+}
+/** TESTIMONIALS **/
 /*==========
   LAYOUT
 =============*/
@@ -736,7 +768,10 @@ select:focus {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.member-quotes-container {
+
+.testimonials-container {
+  max-width: 800px;
+  margin: auto;
 }
 /*** TESTIMONIALS ***/
 /*==========
@@ -937,6 +972,21 @@ select:focus {
     padding-top: 9em;
   }
   /** FOOTER **/
+
+  /** TESTIMONIALS **/
+  .testimonials-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5em;
+  }
+  .testimonials-container-reverse {
+    flex-direction: row-reverse;
+  }
+  .member-quotes-container {
+    width: 50%;
+  }
+  /** TESTIMONIALS **/
 }
 
 @media screen and (min-width: 1536px) {
