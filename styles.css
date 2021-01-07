@@ -183,6 +183,17 @@ a {
   text-decoration: none;
 }
 /* anchor tags */
+
+/* screen reader only */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* screen reader only */
 /*==========
   GENERAL
 =============*/
@@ -328,6 +339,7 @@ header nav ul li a {
   margin: auto;
 }
 /** CABINS **/
+
 /*==========
   LAYOUT
 =============*/
