@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cozy Cabins Retreat</title>
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/2621f4144f.js" crossorigin="anonymous"></script>
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;700;900&display=swap"
@@ -48,6 +50,7 @@
         </ul>
       </nav>
     </div>
+    <!-- desktop nav -->
     <nav id="desktop-nav" class="flex-between main-container">
       <ul id="desktop-nav-left" class="flex-center">
         <li class="brand-name-container">
@@ -70,7 +73,7 @@
           <a href="#" title="login page">Login</a>
         </li>
         <li>
-          <a class="btn-light" href="#" title="get started page">Get Started</a>
+          <a class="btn-light" href="#activities" title="get started page">Get Started</a>
         </li>
       </ul>
     </nav>
@@ -143,32 +146,36 @@
         <div class="cabin-card-container">
           <div class="cabin-card">
             <div class="cabin-card-image-container">
-              <img src="./assets/cabin1-img.jpg" alt="cabin">
+              <img src="./assets/cabin1-img.jpg" alt="cabin on a lake">
             </div>
             <div class="cabin-text">
-              <h2>title</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam incidunt saepe molestias dicta vitae, earum ipsum nostrum numquam atque? Autem.</p>
-              <p>$200/Night</p>
+              <h2>Lakeview Cabin</h2>
+              <p>From the outside this cabin looks nice and traditional. It has been built with bricks covered in render and has white
+              pine wooden decorations. Short, wide windows let in plenty of light and have been added to the house in a mostly
+              symmetric way.</p>
+              <p class="cabin-price">$200/Night</p>
             </div>
           </div>
           <div class="cabin-card">
             <div class="cabin-card-image-container">
-              <img src="./assets/cabin1-img.jpg" alt="cabin">
+              <img src="./assets/cabin2-img.jpg" alt="cabin on mountains">
             </div>
             <div class="cabin-text">
-              <h2>title</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam incidunt saepe molestias dicta vitae, earum ipsum nostrum numquam atque? Autem.</p>
-              <p>$200/Night</p>
+              <h2>Mountain View Cabin</h2>
+              <p>The cabin is equipped with an old-fashioned kitchen and one modern bathroom, it also has a generous living room, two
+              bedrooms, a large dining area, a bar and a spacious basement.</p>
+              <p class="cabin-price">$200/Night</p>
             </div>
           </div>
           <div class="cabin-card">
             <div class="cabin-card-image-container">
-              <img src="./assets/cabin1-img.jpg" alt="cabin">
+              <img src="./assets/cabin3-img.jpg" alt="cabin in the snow">
             </div>
             <div class="cabin-text">
-              <h2>title</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam incidunt saepe molestias dicta vitae, earum ipsum nostrum numquam atque? Autem.</p>
-              <p>$200/Night</p>
+              <h2>Snow Packed Cabin</h2>
+              <p>From the outside this house looks gorgeous. It has been built with red bricks and has sandstone decorations. Large,
+              octagon windows let in plenty of light and have been added to the house in a fairly symmetrical pattern.</p>
+              <p class="cabin-price">$200/Night</p>
             </div>
           </div>
         </div>
@@ -262,7 +269,7 @@
               <option value="Wyoming">Wyoming</option>
             </select>
           </fieldset>
-          <input type="submit" value="Submit">
+          <input class="btn-light" type="submit" value="Submit">
         </form>
       </div>
     </section>

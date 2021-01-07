@@ -161,6 +161,7 @@ html {
   color: var(--white);
   border-radius: 25px;
   transition: 0.3s ease all;
+  cursor: pointer;
 }
 .btn-dark:hover {
   background: var(--orange);
@@ -172,6 +173,7 @@ html {
   color: var(--white);
   border-radius: 25px;
   transition: 0.3s ease all;
+  cursor: pointer;
 }
 .btn-light:hover {
   background: var(--dark-blue);
@@ -263,6 +265,11 @@ header nav ul li a {
   line-height: 1.5;
   color: rgb(82, 82, 82);
 }
+.cabin-price {
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
 .activity-text-reverse {
   text-align: right;
 }
@@ -368,7 +375,7 @@ input {
 /** CABINS **/
 .cabin-btn-container {
   width: 200px;
-  margin: auto;
+  margin: 0 auto 3rem;
 }
 /** CABINS **/
 
