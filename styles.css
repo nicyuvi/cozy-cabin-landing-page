@@ -752,13 +752,16 @@ select:focus {
   #desktop-nav {
     display: flex;
     /* place nav on top of hero background */
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 50%;
     padding: 1em 0;
     border-bottom: 0.25px solid #fff8f094;
     transform: translateX(-50%);
+    width: 100%;
+    transition: .3s ease-out all;
+}
   }
 
   header nav ul li a {
