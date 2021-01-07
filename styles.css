@@ -133,6 +133,9 @@ img {
 html {
   scroll-behavior: smooth;
 }
+body {
+  overflow-x: hidden;
+}
 .main-container {
   width: 95%;
   margin: auto;
