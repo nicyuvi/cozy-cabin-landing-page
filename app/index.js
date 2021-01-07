@@ -3,3 +3,6 @@ navBar();
 
 import { preventLinkDefault } from './preventLinkDefault.js';
 preventLinkDefault();
+
+import { formValidate } from './formValidation.js';
+formValidate();

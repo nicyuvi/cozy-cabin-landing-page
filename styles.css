@@ -288,6 +288,15 @@ input[type='submit'] {
 input {
   font-size: 1rem;
 }
+
+.first-name-error,
+.last-name-error,
+.email-error,
+.phone-error,
+.state-error {
+  text-transform: uppercase;
+  color: rgb(230, 53, 53);
+}
 /** CONTACT **/
 
 /** FOOTER **/
@@ -588,7 +597,7 @@ fieldset {
 }
 .custom-shape-divider-bottom-1609986637 {
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -615,7 +624,7 @@ input[type='text'],
 input[type='tel'] {
   border: none;
   border-bottom: 2px solid var(--dark-blue);
-  padding: 0.5em 0.5em 0 0.5em;
+  padding-top: 1em;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
