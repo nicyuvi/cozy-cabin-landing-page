@@ -655,6 +655,7 @@ input[type='tel'] {
   border: none;
   border-bottom: 2px solid var(--dark-blue);
   padding-top: 1em;
+  transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -760,8 +761,7 @@ select:focus {
     border-bottom: 0.25px solid #fff8f094;
     transform: translateX(-50%);
     width: 100%;
-    transition: .3s ease-out all;
-}
+    transition: 0.3s ease-out all;
   }
 
   header nav ul li a {
