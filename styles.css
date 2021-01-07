@@ -196,6 +196,36 @@ a {
   overflow: hidden;
 }
 /* screen reader only */
+
+/* fade in on scroll */
+.fadeOutRight {
+  transition: 0.8s ease-in-out all;
+  transform: translateX(60px);
+  opacity: 0;
+}
+.fadeInLeft {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.fadeOutLeft {
+  transition: 0.8s ease-in-out all;
+  transform: translateX(-60px);
+  opacity: 0;
+}
+.fadeInRight {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.fadeOutDown {
+  transition: 0.8s ease-in-out all;
+  transform: translateY(60px);
+  opacity: 0;
+}
+.fadeInUp {
+  transform: translateY(0px);
+  opacity: 1;
+}
+/* fade in on scroll */
 /*==========
   GENERAL
 =============*/
