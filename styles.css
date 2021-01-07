@@ -713,6 +713,32 @@ select:focus {
   fill: #ffffff;
 }
 /*** FOOTER ***/
+
+/*** TESTIMONIALS ***/
+.member-image-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.member-image-container .portrait-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.blob-shape {
+  position: absolute;
+  z-index: -1;
+  height: 350px;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.member-quotes-container {
+}
+/*** TESTIMONIALS ***/
 /*==========
   COMPONENTS
 =============*/
