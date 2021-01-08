@@ -441,6 +441,9 @@ input {
 .cabin-btn-container {
   width: 200px;
   margin: 0 auto 3rem;
+  /* fix curved border from overlapping btn */
+  z-index: 1;
+  position: relative;
 }
 /** CABINS **/
 
@@ -818,7 +821,7 @@ select:focus {
     display: flex;
     /* place nav on top of hero background */
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 0;
     left: 50%;
     padding: 1em 0;
