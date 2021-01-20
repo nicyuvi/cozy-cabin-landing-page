@@ -1,9 +1,9 @@
+// fetch api form data
+import { sendFormData } from './sendFormData.js';
 // client side form validation
 
 // form
 const contactForm = document.querySelector('#contact-form');
-// submit btn
-const submitBtn = document.querySelector('#submit-btn');
 
 //inputs
 const firstName = document.querySelector('#firstName');
@@ -66,13 +66,7 @@ export const formValidate = () => {
       e.preventDefault();
     } else {
       e.preventDefault();
-      //reset form on submit -- noredirect
-      submitBtn.value = 'Thank You for Submitting!';
-      firstName.value = '';
-      lastName.value = '';
-      email.value = '';
-      phoneNumber.value = '';
-      stateSelect.value = '';
+      sendFormData();
     }
   });
 };
