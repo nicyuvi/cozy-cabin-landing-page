@@ -11,7 +11,6 @@ const observerOptions = {
 // observer callback
 function observerCallback(entries, observer) {
   entries.forEach((entry) => {
-    console.log(entry);
     if (
       // fade right to left
       entry.isIntersecting &&
