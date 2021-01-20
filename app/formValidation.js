@@ -27,13 +27,13 @@ export const formValidate = () => {
     let errorMessages = [];
 
     // check if first name input is filled out
-    if (firstName.value.length === 0) {
+    if (firstName.value.trim() === '') {
       errorMessages.push('first name error');
       firstNameError.innerHTML = 'Please enter your first name';
     } else firstNameError.innerHTML = '';
 
     // check if last name input is filled out
-    if (lastName.value.length === 0) {
+    if (lastName.value.trim() === '') {
       errorMessages.push('first name error');
       lastNameError.innerHTML = 'Please enter your last name';
     } else lastNameError.innerHTML = '';
